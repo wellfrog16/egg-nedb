@@ -61,7 +61,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 const db = app.nedb['account'];
 const doc = await db.findOne({ username: username });
 
-// 文件夹访问
+// 文件夹下文件访问
 const db = app.nedb['security/account'];
 const doc = await db.findOne({ _id: id });
 ```
