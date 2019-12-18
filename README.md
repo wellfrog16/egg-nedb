@@ -45,6 +45,10 @@ exports.nedb = {
 ```js
 // {app_root}/config/config.default.js
 exports.nedb = {
+  client: {
+    // nedb的文件夹路径，nedb文件为*.db
+    path: path.join(process.cwd(), '../nedb'),
+  },
 };
 ```
 
@@ -52,7 +56,17 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+```js
+// 直接文件
+const db = app.nedb['account'];
+const doc = await db.findOne({ username: username });
+
+// 文件夹访问
+const db = app.nedb['security/account'];
+const doc = await db.findOne({ _id: id });
+```
+
+语法参考 [nedb-promises](https://github.com/bajankristof/nedb-promises)
 
 ## Questions & Suggestions
 
