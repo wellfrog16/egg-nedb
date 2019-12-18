@@ -1,6 +1,6 @@
 {
   "name": "egg-nedb",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "egg plugin for nedb",
   "eggPlugin": {
     "name": "nedb"
