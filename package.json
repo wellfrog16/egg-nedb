@@ -1,7 +1,7 @@
 {
   "name": "egg-nedb",
   "version": "1.0.0",
-  "description": "",
+  "description": "egg plugin for nedb",
   "eggPlugin": {
     "name": "nedb"
   },
@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-nedb.git"
+    "url": "git+https://github.com/wellfrog16/egg-nedb.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/wellfrog16/egg-nedb/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-nedb#readme",
+  "homepage": "https://github.com/wellfrog16/egg-nedb#readme",
   "author": "wellfrog",
   "license": "MIT"
 }
