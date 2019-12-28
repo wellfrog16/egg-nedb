@@ -1,6 +1,6 @@
 {
   "name": "egg-nedb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "egg plugin for nedb",
   "eggPlugin": {
     "name": "nedb"
@@ -39,7 +39,8 @@
     "app.js",
     "agent.js",
     "config",
-    "app"
+    "app",
+    "lib"
   ],
   "ci": {
     "version": "8, 10"
